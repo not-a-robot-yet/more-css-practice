@@ -1,1 +1,61 @@
-/* Add your CSS here */
+body {
+	font-family: sans-serif;
+}
+
+.page {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.header-container {
+	display: flex;
+	margin: 20px;
+	justify-content: center;
+}
+
+.header {
+	text-align: center;
+}
+
+.header > h1 {
+	display: flex;
+	width: 400px;
+	justify-content: center;
+}
+
+.header > p {
+	display: flex;
+	width: 600px;
+}
+
+.button-container {
+	display: flex;
+	margin: 40px;
+	justify-content: center;
+}
+
+.button {
+	display: flex;
+	color: blue;
+	width: 200px;
+}
+
+.icon-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.icon-img {
+	display: flex;
+	justify-content: flex-start;
+	width: 100px;
+	height: 100px;
+}
+
+.icon-txt {
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+	width: 500px;
+}
