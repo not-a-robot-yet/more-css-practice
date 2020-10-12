@@ -1,1 +1,46 @@
-/* Add your CSS here */
+.header-container {
+
+}
+
+.input-container {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	color: black;
+}
+
+.check-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.check-title {
+	display: flex;
+	text-transform: uppercase;
+}
+
+.check-input {
+	display: flex;
+	border: 1px solid grey;
+	text-align: flex-start;
+}
+
+.single-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.search {
+	background-color: #FF6969;
+	color: white;
+}
+
+.title {
+	display: flex;
+	text-transform: uppercase;
+}
+
+.single-input {
+	display: flex;
+	border: 1px solid grey;
+}
